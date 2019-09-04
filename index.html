@@ -5,6 +5,12 @@
 		<meta name="author" content="Merwan Lara">
 		<meta name="description" content="Portfolio website for me.">
 		<title>Merwan LARA - Portfolio</title>
+		<link rel="stylesheet" href="styles/style.css">
+
+    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
 	</head>
 	<!-- Projets (dropdown) -> Electrode, Fragments, Projets de Tek ? -->
 	<body>
@@ -18,9 +24,17 @@
 		</nav>
 		<main>
 			Coucou
+			<div class="dropdown" style="float:left;">
+  <button class="dropbtn">Left</button>
+  <div class="dropdown-content" style="left:0;">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
 		</main>
 		<footer>
-			<p>©Copyright 2019 Merwan LARA. Tous droits reversés. <a href="https://github.com/NhgrtPlayer/NhgrtPlayer.github.io">Code Source</a></p>
+			<p>©Copyright 2019 Merwan LARA. Made with passion. <a href="https://github.com/NhgrtPlayer/NhgrtPlayer.github.io">Source</a></p>
 		</footer>
 	</body>
 </html>

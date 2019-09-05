@@ -68,6 +68,10 @@ nav li {
   flex: 1;
 }
 
+nav li:hover {
+	background-color: #f1f1f1
+}
+
 nav a {
   display: inline-block;
   font-size: 2rem;
